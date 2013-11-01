@@ -1,0 +1,293 @@
+
+
+body{
+
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', tahoma, sans-serif;
+
+}
+
+
+
+/* Grid
+----------------------------------------*/
+.clear{
+	clear: both;
+}
+
+.wrapp{
+
+	width: 960px;
+	height: auto;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.wrapp h2{
+
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.row {
+	width: 100%;
+	clear: both;
+}
+
+
+header{
+	height: 100px;
+}
+#content{
+	height: 400px;
+	background: #3498db;
+}
+#showcase{
+	height: auto;
+}
+
+
+
+/* header
+--------------------------------*/
+header #logo{
+	float: left;
+}
+header #logo h1{
+	display: block;
+	background: url(http://eldojo.org/includes/img/dojologo5.png) -17px 0 no-repeat; 
+	width: 180px;
+	height: 90px;	
+	margin: 0;
+	padding: 0;
+	text-indent: -5000px;
+}
+header nav{
+	float: right;
+	width: auto;
+	margin-top: 25px;
+}
+header nav ul li{
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+}
+header nav ul li a{
+	color: #2980b9;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 14px;
+	/*border-bottom: 3px solid #fff;*/
+}
+
+header nav ul li a.active,
+header nav ul li a:hover{
+	border-bottom:3px solid #000;
+
+}
+
+/* showcase
+---------------------------------*/
+
+#showcase{
+	margin-top: 30px;
+}
+
+#showcase  .thumb{
+	height:200px;
+	margin-bottom: 10px;
+}
+
+#showcase .last,
+#showcase .others {
+	width: 470px;
+	height: auto;
+}
+
+#showcase .last {
+	float: left;
+	width: 490px;
+}
+
+#showcase .others {
+	float: right;	
+}
+
+#showcase .last .thumb{
+
+	width: 100%;
+	background: #000;
+}
+
+#showcase .others .thumb{
+	width: 220px;
+	margin-left: 10px;
+	background: #000;
+	float: left;
+}
+
+#gallery{
+
+	width: 960px;
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+
+}
+#gallery .thumb{
+
+	height:200px;
+	margin-bottom: 20px;
+	width: 300px;
+	background: #000;
+	vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+
+
+/* media queries  and (max-device-width : 1024px)  and (orientation : landscape)
+-------------------------------*/
+@media only screen  and (max-width : 1024px)  { 
+
+
+	.wrapp{
+		padding: auto 40px;
+		width: 760px;
+	}
+
+	#showcase .last,
+	#showcase .others {
+		float: none;
+		width: 100%;
+		clear: both;
+		margin: 0;
+	}
+
+	#showcase .others .thumb{
+		text-align: justify;
+    	-ms-text-justify: distribute-all-lines;
+    	text-justify: distribute-all-lines;
+	}
+
+	#showcase .others .thumb{
+		width: 375px;
+		margin-left: 1px;
+		margin-right: 0;
+		 display: inline-block;
+	    *display: inline;
+	    float: none;	    
+	    zoom: 1
+	}
+
+	#gallery{
+		width: 100%;
+	}
+
+	#gallery .thumb{
+
+		height:200px;
+		margin-bottom: 20px;
+		width: 220px;
+
+	}
+
+
+}
+
+
+@media only screen  and (max-width : 760px)  { 
+
+	.wrapp{
+		padding: auto 40px;
+		width: 620px;
+	}
+
+	#showcase .last,
+	#showcase .others {
+		float: none;
+		width: 100%;
+		clear: both;
+		margin: 0;
+	}
+
+	#showcase .others .thumb{
+		text-align: justify;
+    	-ms-text-justify: distribute-all-lines;
+    	text-justify: distribute-all-lines;
+	}
+
+	#showcase .others .thumb{
+		width: 305px;
+		margin-left: 1px;
+		margin-right: 0;
+		 display: inline-block;
+	    *display: inline;
+	    float: none;	    
+	    zoom: 1
+	}
+
+	#gallery{
+		width: 100%;
+	}
+
+	#gallery .thumb{
+
+		height:200px;
+		margin-bottom: 20px;
+		width: 190px;
+
+	}
+
+}
+
+@media only screen  and (max-width : 480px)  { 
+
+
+	.wrapp{
+		padding: auto 40px;
+		width: 420px;
+	}
+
+	
+	header nav ul{
+
+		padding: 0;
+		margin: 0;
+	}
+
+	
+
+	#showcase .last,
+	#showcase .others {
+		float: none;
+		width: 100%;
+		clear: both;
+		margin: 0;
+	}
+
+	#showcase .others .thumb{
+		text-align: justify;
+    	-ms-text-justify: distribute-all-lines;
+    	text-justify: distribute-all-lines;
+	}
+
+	#showcase .others .thumb{
+		width: 100%;
+	    clear:both;
+	}
+
+	#gallery{
+		width: 100%;
+	}
+
+	#gallery .thumb{
+
+		width: 100%;
+	    clear:both;		
+
+	}
+
+}

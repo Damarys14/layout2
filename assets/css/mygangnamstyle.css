@@ -1,0 +1,15 @@
+.gallery img{
+	width: 100%;
+	height: 180px;
+}
+
+.team img{
+	width: 150px;
+	border: 6px solid rgb(231,97,93);
+}
+
+.team img:hover{
+	transition: ease-out 0.2s;
+	border: 4px solid rgba(231,97,93,0.8);
+	-webkit-transition: ease-out 0.2s;
+}
