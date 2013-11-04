@@ -37,7 +37,7 @@ body{
 
 .ps-support{
 	background-color: #0d293f;
-	height: 270px;
+	height: 370px;
 }
 
 
@@ -49,8 +49,26 @@ body{
 	padding-top: 20px;
 }
 .row{
-	
 	text-align: center;
+}
+
+#row{
+	margin: 0px;
+
+}
+
+#left{
+	text-align: left;
+	color: #f1ffff;
+}
+
+.left{
+	text-align: left;
+	margin-top: 5px;
+}
+
+#margin{
+	margin-top: 120px;
 }
 
 h2{
@@ -58,15 +76,31 @@ h2{
 	font-weight: bold;
 }
 
+.h1{
+	margin-top: 0px;
+}
+
 .h4{
 	color: #f1ffff;
-	text-align: right;
+	text-align: right;	
+}
+
+.p{
+	text-align: left;
 }
 
 
-h5{
+.h5{
+	margin-top: -10px;
+	margin-bottom: 0px;
 	color: #373737;
 	font-weight: bold;
+	margin-left: 10px;
+}
+
+hr{
+	margin-top: 0px;
+	margin-bottom: 5px;
 }
 
 .h3{
